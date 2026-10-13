@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mayur ❤️ Shruti | Engagement Invitation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="ambient-glow"></div>
+    <div id="petals"></div>
+
+    <main class="invitation">
+
+        <div class="top-ornament">✦ ❧ ✦</div>
+
+        <p class="eyebrow reveal">A BEAUTIFUL BEGINNING</p>
+
+        <div class="ring">💍</div>
+
+        <p class="invite-text reveal">
+            Two hearts, one promise,<br>
+            a lifetime of togetherness...
+        </p>
+
+        <p class="family reveal">THE MATE FAMILY</p>
+
+        <p class="request reveal">
+            Cordially invites you to celebrate the engagement of
+        </p>
+
+        <section class="couple reveal">
+            <h1>Mayur</h1>
+            <div class="ampersand">
+                <span></span>
+                <b>&amp;</b>
+                <span></span>
+            </div>
+            <h1>Shruti</h1>
+        </section>
+
+        <p class="forever reveal">Two souls · One beautiful journey</p>
+
+        <div class="gold-divider"><span>❧</span></div>
+
+        <section class="event reveal">
+            <p class="event-label">SAVE THE DATE</p>
+            <h2>12 <span>November</span></h2>
+            <p class="year">2026</p>
+
+            <div class="event-info">
+                <div>
+                    <span class="info-icon">✧</span>
+                    <p>THE CELEBRATION</p>
+                    <h3>Engagement Ceremony</h3>
+                </div>
+
+                <div class="vertical-line"></div>
+
+                <div>
+                    <span class="info-icon">⌖</span>
+                    <p>THE VENUE</p>
+                    <h3>Nakshtra Lawns</h3>
+                    <small>Pune, Maharashtra</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="countdown-box reveal">
+            <p class="event-label">THE COUNTDOWN BEGINS</p>
+
+            <div id="countdown">
+                <div><strong>--</strong><span>Days</span></div>
+                <div><strong>--</strong><span>Hours</span></div>
+                <div><strong>--</strong><span>Minutes</span></div>
+                <div><strong>--</strong><span>Seconds</span></div>
+            </div>
+        </section>
+
+        <p class="blessing reveal">
+            Your presence will make our celebration<br>
+            even more special.
+        </p>
+
+        <a class="map-button reveal"
+           href="https://www.google.com/maps/search/?api=1&query=Nakshtra+Lawns+Pune"
+           target="_blank"
+           rel="noopener noreferrer">
+            ✧ &nbsp; FIND THE VENUE &nbsp; ↗
+        </a>
+
+        <button class="share-button reveal" onclick="shareInvitation()">
+            SHARE THE INVITATION ♡
+        </button>
+
+        <footer class="reveal">
+            <span>WITH LOVE & BLESSINGS</span>
+            <h2>The Mate Family</h2>
+            <p>Made with love for Mayur &amp; Shruti</p>
+        </footer>
+
+        <div class="bottom-ornament">❧ ✦ ❧</div>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
